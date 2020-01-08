@@ -3,7 +3,7 @@ function getConnection(){
     $mysqlhost='127.0.0.1';
     $mysqluser='root';
     $mysqlpassword='';
-    $mysqldbname='gestionvillepdo';
+    $mysqldbname='php_gestionvillepdo';
     $dsn= "mysql:host=$mysqlhost;dbname=$mysqldbname";
 
 

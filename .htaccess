@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^$ login.php
+
+RewriteRule ^List$ src/view/ville/list.php
+RewriteRule ^VilleController$ src/controller/VilleController.php
+RewriteRule ^UserController$ src/controller/UserController.php
